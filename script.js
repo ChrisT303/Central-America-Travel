@@ -14,9 +14,8 @@ let content = "";
 countries.forEach(p => {
     content += `<div class="card" style="width: 18rem;">
     <img src="${p[1]}" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">${p[0]}</h5>
-      <p class="card-text"></p>
+    <div class="card-img-overlay">
+      <h5 class="card-title text-white">${p[0]}</h5>
       <a href="#" class="stretched-link"></a>
     </div>
   </div>`
