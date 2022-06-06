@@ -17,9 +17,9 @@ countries.forEach(p => {
     <div class="card-body">
       <h5 class="card-title">${p[0]}</h5>
       <p class="card-text"></p>
-      <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+      <a href="#" class="stretched-link"></a>
     </div>
   </div>`
 })
 
-document.querySelector("#country").innerHTML = content;
+document.querySelector("#country").innerHTML = content
